@@ -7,7 +7,7 @@ double height=1.9;
 char firstLetterName='М' ;
 
 if(age > 20) {
-    System.out.println("Человеку-"+ age+ " лет");
+    System.out.println("Человеку-"+ age+ " лет"); // Привет
 }
 
 if(menSex) {
