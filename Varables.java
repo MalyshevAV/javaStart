@@ -2,7 +2,7 @@
 
 public class Varables {
     public static void main(String[] args) {
-    	byte core=4;
+    	byte core = 4;
     	short ssd = 500;
     	int countSsd = 2;
     	long id = 77604321;
@@ -14,7 +14,7 @@ public class Varables {
         System.out.println("Количество ядер : " + core);
         System.out.println("Объем жесткого диска : " + ssd + " ГБ");
         System.out.println("Число жестких дисков : " + countSsd);
-        System.out.println("Серийный номер : " + id );
+        System.out.println("Серийный номер : " + id);
         System.out.println("Частота процессора : " + freqProc + " ГГц");
         System.out.println("Тип  USB : " + usb);
         System.out.println("Масса компьютера 5000 " + weight );
