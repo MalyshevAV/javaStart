@@ -13,7 +13,7 @@ public class ConditionalStatement {
         } 
         double height = 1.9;
         if (height < 1.80) {
-	        System.out.println("Рост женщины ниже" + height);
+	    System.out.println("Рост женщины ниже" + height);
         } else { 
             System.out.println("Мужчина ростом - " + height + " м."); 
         } 
