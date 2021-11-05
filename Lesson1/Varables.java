@@ -1,5 +1,3 @@
-
-
 public class Varables {
     public static void main(String[] args) {
     	byte core = 4;

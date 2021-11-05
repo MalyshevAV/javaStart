@@ -14,6 +14,7 @@ public class Cycle {
     	    summ = summ + a;
     	    a= a + 2;
             System.out.println("Сума нечетных чисел = " + summ);
-         } while (a < 20);          
+        } 
+        while (a < 20);          
     }
 }
