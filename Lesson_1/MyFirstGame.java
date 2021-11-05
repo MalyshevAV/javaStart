@@ -5,13 +5,10 @@ public class MyFirstGame {
     for (int i = 1; i <= 100; i++) {
         if (i > inputNumber) {
             System.out.println("Данное число больше того, что загадал компьютер");
-    } 
-    else if (i < inputNumber) {
+    } else if (i < inputNumber) {
         System.out.println("Данное число меньше того, что загадал компьютер");
-    }
-    else {
+    } else {
         System.out.println("Поздравляем! Вы угадали число " + inputNumber);
-    }
-        break; }
+        }   break; }
     }           
 }
