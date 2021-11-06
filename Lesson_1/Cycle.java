@@ -16,7 +16,7 @@ public class Cycle {
     	    sumOd += count;
     	    count += 2;
         } while (count < 20); 
-          System.out.println("Сумма нечетных чисел = " + sumOd);             
+        System.out.println("Сумма нечетных чисел = " + sumOd);             
     }
 }
 
