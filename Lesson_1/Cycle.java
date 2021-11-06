@@ -3,18 +3,20 @@ public class Cycle {
         for (int i = 0; i <= 20; i++) {
     	    System.out.println("Цикл for :" + i);
         }
-        int value = - 6;
-        while (value <= 6) {
-            System.out.println("Возвращаем значение Value = " + value); 
-            value = value + 2;            
+
+        int counter = - 6;
+        while (counter <= 6) {
+            System.out.println("Возвращаем значение Counter = " + counter); 
+            counter + = 2;            
         }
-        int a = 11;
-        int summ = 0;
+
+        int count = 11;
+        int summOd = 0;
         do {
-    	    summ = summ + a;
-    	    a= a + 2;
-        } while (a < 20); 
-            System.out.println("Сума нечетных чисел = " + summ);             
+    	    sumOd += count;
+    	    count += 2;
+        } while (count < 20); 
+          System.out.println("Сумма нечетных чисел = " + sumOd);             
     }
 }
 
