@@ -4,19 +4,19 @@ public class Cycle {
     	    System.out.println("Цикл for :" + i);
         }
 
-        int counter = - 6;
+        int counter = -6;
         while (counter <= 6) {
             System.out.println("Возвращаем значение Counter = " + counter); 
-            counter + = 2;            
+            counter += 2;            
         }
 
         int count = 11;
-        int summOd = 0;
+        int summOdd = 0;
         do {
-    	    sumOd += count;
+    	    sumOdd += count;
     	    count += 2;
         } while (count < 20); 
-        System.out.println("Сумма нечетных чисел = " + sumOd);             
+        System.out.println("Сумма нечетных чисел = " + sumOdd);             
     }
 }
 
