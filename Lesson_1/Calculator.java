@@ -21,9 +21,9 @@ public class Calculator {
                     result *= a;
                 }
                 System.out.println("a ^ " + b + " = " + result);
-            }
             } else {
                 System.out.println("Введены неверные значания");
+            }    
         }
     }
 }
