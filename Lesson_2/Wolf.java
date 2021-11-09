@@ -11,7 +11,7 @@ public class Wolf {
     }
 
     public void sit() {
-        System.out.println("Волк сидит у воды");
+        System.out.println("Волк сидит у реки");
     }
 
     public void run() {
@@ -23,24 +23,6 @@ public class Wolf {
     }
 
      public void hunt() {
-        System.out.println("Охотиться на оленя");
+        System.out.println("Охотится на оленя");
      }
-}
-
-class WolfTest {
-    public static void main(String[] args) {
-        Wolf wolf = new Wolf ();
-        wolf.age = 5;
-        wolf.color= "grey";
-        wolf.name = "Jack";
-        wolf.sex = "male";
-        wolf.weight = 20;
-        System.out.println("Волку - " + wolf.age + " лет, Цвет - " + wolf.color +", " + "Кличка - " 
-                        + wolf.name + ", Пол - "+ wolf.sex + ", Вес - "+ wolf.weight);
-        wolf.go();
-        wolf.sit();
-        wolf.run();
-        wolf.howl();
-        wolf.hunt();
-    }
 }
