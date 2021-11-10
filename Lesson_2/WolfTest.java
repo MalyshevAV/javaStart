@@ -7,7 +7,7 @@ public class WolfTest {
         wolf.sex = "male";
         wolf.weight = 20;
         System.out.println("Волку - " + wolf.age + " лет, Цвет - " + wolf.color +", " + "Кличка - " 
-                        + wolf.name + ", Пол - "+ wolf.sex + ", Вес - "+ wolf.weight);
+                + wolf.name + ", Пол - "+ wolf.sex + ", Вес - "+ wolf.weight);
         wolf.go();
         wolf.sit();
         wolf.run();
