@@ -4,9 +4,6 @@ public class CalculatorTest {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String answer = "";
-        while (answer.equals("no")) {
-            break;
-        }
         while (!answer.equals("no")) {
             System.out.println("Введите первое число:");
             int num1 = scanner.nextInt();
