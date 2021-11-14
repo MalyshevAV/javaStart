@@ -1,13 +1,13 @@
 public class Jaeger {
+
     private String name;
     private String status;
     private String origin;
     private double height;
     private double weight;
     private int speed;
-    private int strenght;
+    private int strength;
     private int armor;
-
 
     public String getName() {
         return name;
@@ -18,6 +18,7 @@ public class Jaeger {
     }
 
     public String getStatus() {
+        status = "Destroyed";
         return status;
     }
 
@@ -26,11 +27,13 @@ public class Jaeger {
     }
 
     public String getOrigin() {
+        origin = "China";
         return origin;
     }
 
     public void setOrigin(String origin) {
         this.origin = origin;
+
     }
 
     public double getHeight() {
@@ -57,28 +60,23 @@ public class Jaeger {
         this.speed = speed;
     }
 
-    public int getStrength() {
+    public int getStrenght() {
+        strength = 8;
         return strength;
     }
 
-    public void setStrength(int strength) {
+    public void setStrenght(int strength) {
         this.strength = strength;
     }
 
     public int getArmor() {
+        armor = 6;
         return armor;
     }
 
     public void setArmor(int armor) {
         this.armor = armor;
     }
-
-    public class CrimsonTyphoon extends Jaeger {
-
-
-    }
-
-    public class HorizonBrave extends Jaeger {
-
-    }
 }
+
+
