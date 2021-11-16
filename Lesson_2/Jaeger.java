@@ -6,7 +6,7 @@ public class Jaeger {
     private double height;
     private double weight;
     private int speed;
-    private int strength;
+    private int strenght;
     private int armor;
 
     public String getName() {
@@ -18,21 +18,19 @@ public class Jaeger {
     }
 
     public String getStatus() {
-        status = "Destroyed";
         return status;
     }
 
     public void setStatus(String status) {
-        this.status = status;
+        this.status = "Destroyed";
     }
 
     public String getOrigin() {
-        origin = "China";
         return origin;
     }
 
     public void setOrigin(String origin) {
-        this.origin = origin;
+        this.origin = "China";
 
     }
 
@@ -61,16 +59,14 @@ public class Jaeger {
     }
 
     public int getStrenght() {
-        strength = 8;
-        return strength;
+        return strenght;
     }
 
     public void setStrenght(int strength) {
-        this.strength = strength;
+        this.strenght = strenght;
     }
 
     public int getArmor() {
-        armor = 6;
         return armor;
     }
 
