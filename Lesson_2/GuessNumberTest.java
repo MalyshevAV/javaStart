@@ -12,7 +12,6 @@ public class GuessNumberTest {
         while (playOnceAgain) {
             int hiddenNumber = new Random().nextInt(100) + 1;
            System.out.println("Компьютер загадал число: " + hiddenNumber);
-
             boolean winner = false;
             while (!winner) {
                 winner = GuessNumber.guessNumber(player1, scanner, hiddenNumber);
