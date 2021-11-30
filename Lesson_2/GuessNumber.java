@@ -12,15 +12,12 @@ public class GuessNumber {
         this.player1 = player1;
         this.player2 = player2;
         this.scanner =  new Scanner(System.in);
-        this.hiddenNumber = 0;
     }
 
     public void run() {
         hiddenNumber = new Random().nextInt(100) + 1;
         System.out.println("Компьютер загадал число: " + hiddenNumber);
-        while (!guessNumber(player1)) {
-            if (!guessNumber(player2)) {    
-            }
+        while(!guessNumber(player1) && !guessNumber(player2)) {
         }
     }
 
