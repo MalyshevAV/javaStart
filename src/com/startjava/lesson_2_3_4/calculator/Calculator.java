@@ -1,9 +1,8 @@
-package com.startjava.lesson_2_3.calculator;
+package com.startjava.lesson_2_3_4.calculator;
 
 public class Calculator {
 
     public static int calculate(String expression) {
-
         String[] parts = expression.split(" ");
         int num1 = Integer.parseInt(parts[0]);
         char operator = parts[1].charAt(0);
@@ -12,23 +11,17 @@ public class Calculator {
         int result = 0;
         switch (operator) {
             case '+':
-                result = num1 + num2;
-                break;
+                return  num1 + num2;
             case '/':
-                result = num1 / num2;
-                break;
+                return num1 / num2;
             case '*':
-                result = num1 * num2;
-                break;
+                return num1 * num2;
             case '-':
-                result = num1 - num2;
-                break;
+                return num1 - num2;
             case '%':
-                result = num1 % num2;
-                break;
+                return num1 % num2;
             case '^':
-                result = (int) Math.pow(num1, num2);
-                break;
+                return (int) Math.pow(num1, num2);
             default:
                 System.out.println("Оператор введен неверно");
         }
