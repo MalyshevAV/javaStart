@@ -2,7 +2,8 @@ package com.startjava.lesson_2_3_4.game;
 
 import java.util.Scanner;
 
-public class GuessNumberTest {
+public class GuessNumberTest { 
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите имя первого игрока: ");
